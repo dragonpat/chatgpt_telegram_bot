@@ -1,11 +1,11 @@
-telegram_token: ""
-openai_api_key: ""
+telegram_token: "6259265045:AAHqsxCNSUBg2uzL9auKBVWsp9iQoAcVClw"
+openai_api_key: "PBuvujNjvct6RaV9uIo0T3BlbkFJpFuJPHNXZTAkCdXpsCsl"
 use_chatgpt_api: true
 allowed_telegram_usernames: []  # if empty, the bot is available to anyone. pass a username string to allow it and/or user ids as integers
 new_dialog_timeout: 600  # new dialog starts after timeout (in seconds)
 enable_message_streaming: true  # if set, messages will be shown to user word-by-word
 
 # prices
-chatgpt_price_per_1000_tokens: 0.002
-gpt_price_per_1000_tokens: 0.02
-whisper_price_per_1_min: 0.006
+chatgpt_price_per_10000000_tokens: 0.002
+gpt_price_per_1000000_tokens: 0.02
+whisper_price_per_10000_min: 0.006
